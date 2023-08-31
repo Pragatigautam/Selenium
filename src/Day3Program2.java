@@ -23,6 +23,8 @@ public class Day3Program2 {
 		}
 		else {
 			System.out.println("Test case failed.");
+			
+			
 		}
 		
 		

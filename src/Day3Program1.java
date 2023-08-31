@@ -23,6 +23,10 @@ public class Day3Program1 {
 		
 		//finding element with id to validate that "CONTACT US" is displayed
 		//{in DOM command f and type *[id]*}
+		
+		//there is no id in "CONTACT US"
+		
+		//this is for whole form
 		WebElement W3 = driver.findElement(By.cssSelector("#contact_form"));
 		boolean B1 = W3.isDisplayed();
 		System.out.println(B1);
