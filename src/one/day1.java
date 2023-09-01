@@ -23,7 +23,7 @@ public class day1 {
    System.out.println("Test case pass");  }
   else {   System.out.println("Test case fail");
   }  
-   }
+ }
 
 }
 

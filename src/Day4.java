@@ -30,18 +30,20 @@ public class Day4 {
 		Dimension D1 = el.getSize();
 		System.out.println(D1);
 		
+		
 		//font-family, font-size and color
-		//Dimension D2 = driver.findElement(By.cssSelector("#contact_form > input:nth-child(3)")).getSize();
-		 
 		String S4 = el.getCssValue("font-family");
 		String S5 = el.getCssValue("font-size");
 		String S6 = el.getCssValue("color");
+		System.out.println(S4);
+		System.out.println(S5);
+		System.out.println(S6);
 		
 		//getLocation (which part of the web page the element is
 		Point P = el.getLocation();
 		System.out.println(P);
 		
-		//driver.quit();
+		driver.quit();
 		
 		
 
