@@ -34,6 +34,9 @@ public class Day3Program1 {
 		//finding element by any attribute
 		 //tagName[attribute= "value"] 
 		
+		
+	
+		
 		WebElement W4 = driver.findElement(By.cssSelector("h2[class=\"section_header\"]"));
 		String S4 = W4.getText();
 		System.out.println(S4);

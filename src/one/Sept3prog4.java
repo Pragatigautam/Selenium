@@ -17,7 +17,6 @@ public class Sept3prog4 {
 		pyt.selectByVisibleText("Python");
 		
 		
-
 		
 		String selectedOption = pyt.getFirstSelectedOption().getText();
         if (selectedOption.equals("Python")) {

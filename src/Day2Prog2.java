@@ -18,6 +18,8 @@ public class Day2Prog2 {
 		boolean B2 = radioB_one.isEnabled();
 		System.out.println(B2);
 		
+		
+		
 		WebElement radioB_two = driver.findElement(By.cssSelector("#radio-buttons-selected-disabled > input[type=radio]:nth-child(3)"));
 		boolean B3 = radioB_two.isEnabled();
 		System.out.println(B3);
