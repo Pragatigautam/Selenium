@@ -12,9 +12,7 @@ public class radio {
     public static void main(String[] args) {
        
 
-        ChromeDriver driver = new ChromeDriver();
-        //WebDriverWait wait = new WebDriverWait(driver, 10); // Initialize WebDriverWait
-
+        ChromeDriver driver = new ChromeDriver();      
         driver.get("http://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
 
         // Find all radio buttons with type="radio"
@@ -24,8 +22,8 @@ public class radio {
         for (WebElement radioButton : radioButtons) {
             radioButton.click();
            
-            boolean isSelected = radioButton.isSelected();
-            System.out.println(isSelected);
+            boolean B1 = radioButton.isSelected();
+            System.out.println(B1);
         }
 
         

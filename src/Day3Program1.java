@@ -32,7 +32,7 @@ public class Day3Program1 {
 		System.out.println(B1);
 		
 		//finding element by any attribute
-		 //tagName[attribute= "value"] 
+		 //tagName[attribute= 'value'] 
 		
 		
 	

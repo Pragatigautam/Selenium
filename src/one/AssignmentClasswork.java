@@ -18,10 +18,7 @@ public class AssignmentClasswork {
         for (WebElement checkbox : checkboxes) {
             if (!checkbox.isSelected()) {
                 checkbox.click();
-                //Assertion
-                //String checkboxText = checkbox.getAttribute("value");
-                //System.out.println(checkboxText);
-                //System.out.println(checkbox.isSelected());            
+                           
             }
             else {
             	checkbox.isSelected();

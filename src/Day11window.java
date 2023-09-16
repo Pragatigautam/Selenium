@@ -42,10 +42,8 @@ public class Day11window {
         String parentWindowUrl = driver.getCurrentUrl();
         System.out.println("Parent window URL: " + parentWindowUrl);
 
-        // Close the child window (if needed)
-        driver.close();
+        
 
-        // Close the parent window (or perform further actions)
-        // driver.quit();
+        
     }
 }
