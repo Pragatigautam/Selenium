@@ -1,7 +1,9 @@
+package Practice;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Day3Program3 {
+public class Day3Pt3 {
 
 	public static void main(String[] args) {
 		
@@ -24,6 +26,7 @@ public class Day3Program3 {
 		else {
 			System.out.println("Test case failed.");
 		}
+		driver.quit();
 
 	}
 
